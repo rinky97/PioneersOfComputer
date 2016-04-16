@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+     android:paddingLeft="10dp"
+     android:paddingRight="@dimen/activity_horizontal_margin"
+     android:paddingTop="@dimen/activity_vertical_margin"
+     android:background="#000000"
+     tools:context="com.example.android.pioneersofcomputer.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF80AB"
+        android:layout_gravity="fill_horizontal"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="20dp"
+        android:text="“Nothing epitomizes modern life better than the computer.” For better or worse, computers have infiltrated every aspect of our society. Let's see the contributions made by few of the eminent people who revolutionized the field of technology. "></TextView>
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="ALAN TURING"
+     android:padding="15dp"
+     android:textSize="15sp"
+     android:textStyle="bold"
+     android:layout_gravity="center"
+     android:layout_marginBottom="10dp"
+     android:textColor="#000000"
+     android:background="#FFEE58">
+ </TextView>
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:padding="4dp"
+        android:background="#68EFAD"
+        android:src="@drawable/alan_turing_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/test1"/>
+ </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/alan_turing"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="submitOrder"
+        android:text="Details "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="famous quotes"
+        android:onClick="q_one"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/quote1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JUDEA PEARL"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="#FFEE58">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="12dp"
+            android:padding="4dp"
+            android:background="#68EFAD"
+            android:scaleType="fitXY"
+            android:src="@drawable/judea_pearl_1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/test3"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/judea_pearl"
+        android:layout_height="wrap_content"
+        android:onClick="about"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Details "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="famous quotes"
+        android:onClick="q_two"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/quote2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALAN KAY"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:background="#FFEE58">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+     <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="fitXY"
+            android:padding="4dp"
+            android:background="#68EFAD"
+            android:src="@drawable/alan_kay_2"/>
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/test2"/>
+ </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/alan_kay"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="info"
+        android:text="Details " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="famous quotes"
+        android:onClick="q_three"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/quote3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIM BERNERS LEE"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="#FFEE58">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="12dp"
+            android:padding="4dp"
+            android:background="#68EFAD"
+            android:scaleType="fitXY"
+            android:src="@drawable/tim_berners_lee_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="18dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/test4"/>
+        </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/tim_bernes"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Details "
+            android:onClick="details"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="famous quotes"
+        android:onClick="q_four"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/quote4"/>
+
+
+</LinearLayout>
+
+</ScrollView>
